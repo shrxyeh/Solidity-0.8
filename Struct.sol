@@ -37,5 +37,10 @@ contract Structs {
         _car.model;
         _car.year;
         _car.owner;
+
+        // Car storage car = cars[0];
+        // car.year = 1999;
+        // delete car.owner;//reset the car's owner
+        // delete cars[1];//Data of Audi is deleted
     }
 }
