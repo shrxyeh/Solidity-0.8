@@ -24,6 +24,6 @@ contract CustomErrorExample {
         }
 
         balanceOf[msg.sender] -= _amount;
-        payable(msg.sender).transfer(_amount);
+        payable(msg.sender).transfer(_amount);// transfers _amount wei from the contract to the address that called the function.
     }
 }
